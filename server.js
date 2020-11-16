@@ -20,6 +20,6 @@ http.createServer((req, res) => {
       serverStaticFile(res, '/public/404.html', 'text/html', 404);
       break;
   }
-}).listen(3000);
+}).listen(8081);
 
-console.log('Server is running on localhost:3000; press Ctrl-C to stop it...');
+console.log('Server is running on localhost:8081; press Ctrl-C to stop it...');
